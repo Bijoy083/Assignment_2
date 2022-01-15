@@ -1,0 +1,165 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-weight: 600;
+}
+
+body article{
+    font-weight: bold;
+}
+
+h3{
+    font-size: 2em;
+}
+
+header{
+    margin: 5%;
+}
+h1{
+    font-size: 3em;
+    margin: auto;
+    margin-bottom: 2%;
+    
+}
+
+#section_1{
+    display: flex;
+    margin: 5%;
+}
+
+.section_1_div{
+    width: 50%;
+}
+
+#section_1_div_1{
+    padding-top: 60px;
+}
+
+.section_1_div img{
+    width: 80%;
+    float: right; 
+}
+
+#section_1_button{
+    padding: 8px;
+    color: white;
+    background-color: rgb(216, 34, 134);
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    text-decoration: none;
+}
+
+#transition:hover{ 
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+
+/* css for section_2 */
+
+#section_2{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.section_2_div{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 40px rgb(201, 198, 198);
+    margin-bottom: 30px;
+}
+
+#section_2_button{
+    color: rgb(216, 34, 134);
+    font-size: 20px;
+    background: none;
+    text-decoration: none;
+    border: none;
+    float: right;
+    margin-right: 9%;
+}
+
+/* section_3 */
+
+#section_3{
+    display: flex;
+    margin: 5%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section_3_div{
+
+    height: 180px;
+    width: 200px;
+    font-size: 15px;
+    color: blue;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: linear-gradient(rgb(213, 230, 248),rgb(255, 255, 255)); 
+    margin-bottom: 20px;
+    box-shadow: 0 3px 3px gray;
+
+}
+
+.section_3_div img{
+    width: 60%;
+}
+
+
+/* footer */
+
+footer{
+    padding: 30px;
+    background-color: rgb(16, 3, 41);
+    color: white;
+    text-align: center;
+}
+footer p{
+    font-size: 13px;
+}
+
+#social_media_link a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+    color: rgb(202, 198, 198);
+}
+
+/* media queries */
+
+@media only screen and (max-width: 576px){
+    header h3{
+        text-align: center;
+    }
+
+    
+    #section_1{
+        display: block;
+        margin: auto;
+        text-align: center;
+        justify-content: space-between;  
+    }
+
+    .section_1_div{
+        width: 100%;
+    }
+
+    #section_3{
+        justify-content: center;
+        margin-left: 150px;
+        margin-right: 150px;
+    
+    }
+}
